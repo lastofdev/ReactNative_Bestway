@@ -20,7 +20,7 @@ export function HomeScreen({ navigation }) {
             </TouchableOpacity>
         </ View>
         <Filterbar />
-        <Mainbar />
+        
       </View>
     );
   }

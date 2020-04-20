@@ -4,13 +4,13 @@ import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-nati
 class Category extends Component{
     render(){
         return(
-            <TouchableOpacity>
+           
             <View style={styles.filterbuttons}>
                 <View style={{flex: 1}}>
                    <Text style={styles.filtertext}>{this.props.name}</Text>
                 </View>              
             </View>
-            </TouchableOpacity>
+            
         )
     }
 }

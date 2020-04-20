@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component  } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native'
 import Category from './components/Explore/Category'
 
 
 
-export function Mainbar () {
+export function Mainbar1 () {
 
 return(
         <View style={styles.filtervbar}>
@@ -17,18 +17,18 @@ return(
                         showsVerticalScrollIndicator={false}
                         >
                             <Category 
-                            name='Еда'
-                            />
+                            name='Еда2'
+                            onPress={() => navigation.openDrawer()}/>
                             <Category 
-                            name='Лекарства'/>
+                            name='Лекарства2'/>
                             <Category 
-                            name='Товары'/>
+                            name='Товары2'/>
                             <Category 
-                            name='Услуги'/>
+                            name='Услуги2'/>
                             <Category 
-                            name='Маски'/>
+                            name='Маски2'/>
                             <Category 
-                            name='Правильное питание'
+                            name='Правильное питание2'
                             />    
                         </ScrollView>
                     </View>
